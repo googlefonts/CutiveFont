@@ -1,6 +1,9 @@
 {
 .appVersion = "3302";
 .formatVersion = 3;
+DisplayStrings = (
+"ẞ"
+);
 customParameters = (
 {
 name = panose;
@@ -14312,11 +14315,20 @@ unicode = 7776;
 {
 color = 9;
 glyphname = Germandbls;
-lastChange = "2024-05-02 08:49:17 +0000";
+lastChange = "2024-05-02 09:25:31 +0000";
 layers = (
 {
 layerId = m001;
-width = 1200;
+shapes = (
+{
+ref = S;
+},
+{
+pos = (1510,0);
+ref = S;
+}
+);
+width = 3020;
 }
 );
 unicode = 7838;
@@ -40776,11 +40788,43 @@ unicode = 13;
 {
 color = 9;
 glyphname = .notdef;
-lastChange = "2024-05-02 08:49:17 +0000";
+lastChange = "2024-05-02 09:25:18 +0000";
 layers = (
 {
 layerId = m001;
-width = 1200;
+shapes = (
+{
+closed = 1;
+nodes = (
+(304,-349,o),
+(354,-365,o),
+(395,-365,cs),
+(1284,-365,ls),
+(1321,-365,o),
+(1370,-337,o),
+(1370,-298,cs),
+(1370,1769,ls),
+(1370,1815,o),
+(1333,1841,o),
+(1284,1841,cs),
+(395,1841,ls),
+(348,1841,o),
+(304,1817,o),
+(304,1769,cs),
+(304,-282,ls)
+);
+},
+{
+closed = 1;
+nodes = (
+(480,1665,l),
+(1194,1665,l),
+(1194,-189,l),
+(480,-189,l)
+);
+}
+);
+width = 1674;
 }
 );
 },
@@ -42368,22 +42412,34 @@ unicode = 92;
 {
 color = 9;
 glyphname = periodcentered.loclCAT;
-lastChange = "2024-05-02 08:49:17 +0000";
+lastChange = "2024-05-02 09:23:29 +0000";
 layers = (
 {
 layerId = m001;
-width = 1200;
+shapes = (
+{
+ref = periodcentered;
+}
+);
+width = 477;
 }
 );
 },
 {
 color = 9;
 glyphname = periodcentered.loclCAT.case;
-lastChange = "2024-05-02 08:49:17 +0000";
+lastChange = "2024-05-02 09:23:58 +0000";
 layers = (
 {
 layerId = m001;
-width = 1200;
+shapes = (
+{
+alignment = -1;
+pos = (-140,110);
+ref = periodcentered;
+}
+);
+width = 477;
 }
 );
 },
@@ -52177,6 +52233,7 @@ comma = -220;
 period = -270;
 };
 L = {
+periodcentered.loclCAT.case = -460;
 quotedblright = -460;
 quoteright = -330;
 };
