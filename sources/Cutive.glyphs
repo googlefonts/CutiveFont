@@ -59,11 +59,11 @@ features = (
 automatic = 1;
 code = "feature locl;
 feature sups;
+feature numr;
+feature dnom;
 feature frac;
 feature ordn;
 feature case;
-feature numr;
-feature dnom;
 ";
 tag = aalt;
 },
